@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'project_db',
         'USER': 'admin',
-        'PASSWORD': 'projektdjango',
+        'PASSWORD': 'projectdjango',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
@@ -123,7 +123,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "app_django/static")
+    os.path.join(BASE_DIR, "users/static")
 ]
 
 # Default primary key field type
